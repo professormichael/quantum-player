@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Player</title>
+   <link href="Video%20Player.css" rel="stylesheet">
+</head>
+<body>  <button class="menu-button" onclick="toggleMenu()">
+        <span class="menu-symbol">&#9776</span>
+      </button>
+      <ul class="menu-options" id="menu">
+        <input id="input2030"/>
+          <button class="menu-button" onclick="togle()"/>Search
+
+        <li><a href="music1.html" title="Music Lists"> Musics Lists </a> </li>
+        <li><a href="video1.html" title="Video List"> Videos Lists</a> </li>
+        <li><a href="game.html" title="Game List" id="game1"> Games Lists</a> </li>
+
+      </ul>
+      <script>
+        function toggleMenu(){
+          var menu = document.getElementById("menu");
+          if (menu.style.display === "none"){
+            menu.style.display = "block";
+          } else{
+            menu.style.display = "none";
+          }
+        }
+        function togle(){
+            var ad3 = document.getElementById('input2030').value;
+
+        }
+
+
+      </script>
+
+
+      <p class="first_text"> Quantum Player</p>
+      <p class="second_text" id="second">
+      <h2> Musics </h2>
+      <a class = "muisc_lane" href="music1.html">Alec Benjamin Let Me Down Slowly</a>
+      <h2 class="video_lane">Video</h2>
+      <a class = "video_lane1" href="video1.html">Falz Weldone Sir</a>
+
+
+</body>
+</html>
